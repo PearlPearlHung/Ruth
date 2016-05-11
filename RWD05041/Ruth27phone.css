@@ -1,0 +1,133 @@
+.fixed {
+    width: 100% margin: auto;
+}
+
+nav {
+    background-color: #999;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    /* float: right;*/
+}
+
+nav li {
+    /*       float: left;*/
+    list-style: none;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-family: tahoma;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    /*       padding-left:20px;*/
+    /*      padding-right:20px;*/
+    transition: all .3s;
+}
+
+
+/*     nav a:hover {
+               background-color: #666;*/
+
+
+}
+.logo {
+    /*      float: left;*/
+    
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-color: #fa0;
+}
+header {
+    height: 600px;
+    background-image: url(images/11.jpg);
+    background-size: contain;
+    background-position: top;
+}
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #cce4ff;
+}
+#about .box {
+    width: 90%;
+    margin: auto;
+    /* float:left; */
+    /*   margin-left: 15px; */
+    /*   margin-right: 15px; */
+}
+#about h1 {
+    text-align: center;
+}
+#about p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#gallery .box {
+    width: 50%;
+    height: 585px;
+    float: left;
+    overflow: hidden;
+}
+#gallery .fixed {
+    /*     width:1170px; */
+}
+#gallery .box img {
+    width: 200%;
+}
+#service {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #c4c4c4;
+}
+#service .box {
+    width: 260px;
+    height: 270px;
+    /*  float: left;*/
+    
+    overflow: hidden;
+    /* {     margin-left: 15px; */
+    /*     margin-right: 15px; */
+    
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 10px 30px 1px #000;
+}
+#service .box img {
+    width: 200%;
+}
+footer {
+    background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .copyright {
+    /*    float: left;*/
+}
+footer .copyright p {
+    color: #fff;
+    text-align: center;
+}
+
+}
+footer .sns {
+    /*      float: right;*/
+     text-align: center;
+}
+footer .sns a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: all .3s
+}
+footer .sns a:hover {
+    color: #aaa;
+}
+
+}
